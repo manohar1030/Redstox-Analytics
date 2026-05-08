@@ -71,7 +71,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run main.py
 ```
-```
 
 🖼️ Sample Outputs
 ![Sample Output 1](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778240914/Screenshot_2026-05-08_171819_a4wzk7.png)
