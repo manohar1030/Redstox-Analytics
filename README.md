@@ -33,6 +33,46 @@ LLM Engine	Llama 3.3 70B via Groq
 Backend	Python, Groq SDK
 Visualization	Streamlit native charts
 
+## 🏗️ Architecture
+
+The application follows a modular structure where Streamlit handles the frontend interface, and multiple independent Python agents manage data extraction, technical computation, and LLM processing:
+
+1. **Frontend**: Streamlit UI (`ui_components.py`, `main.py`) takes user input and renders analysis.
+2. **Data Layer**: 
+   - `yfinance` fetches historical stock data (`technical_utils.py`).
+   - `NewsAPI` and `newspaper3k` scrape and parse financial news (`sentiment_utils.py`).
+3. **AI/LLM Layer**: Data is sent via prompt templates (`agents.py`) to the Llama 3.3 70B model using the Groq API (`analysis_utils.py`).
+4. **Integration Layer**: The application synthesizes fundamental, technical, and sentiment results into a cohesive dashboard.
+
+## 🛠️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/manohar1030/redstox-Agentic-AI-StockMarket-Assistant.git
+cd "redstox-Agentic-AI-StockMarket-Assistant-main/Redstox Analytics"
+```
+
+### 2. Set up the Environment Variables
+Create a `.env` file in the root directory and add your API keys:
+```env
+GROQ_API_KEY=your_groq_api_key_here
+NEWS_API_KEY=your_newsapi_key_here
+```
+
+### 3. Install Dependencies
+It's recommended to use a virtual environment:
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+```bash
+streamlit run main.py
+```
+```
+
 🖼️ Sample Outputs
 ![Sample Output 1](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778240914/Screenshot_2026-05-08_171819_a4wzk7.png)
 
