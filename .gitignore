@@ -29,3 +29,6 @@ Thumbs.db
 # Caches
 .pytest_cache/
 .mypy_cache/
+
+# Docker
+.dockerignore
