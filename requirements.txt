@@ -1,0 +1,8 @@
+streamlit
+requests
+pandas
+yfinance
+python-dotenv
+newspaper3k
+lxml_html_clean
+groq
