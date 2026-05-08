@@ -37,16 +37,26 @@ Visualization	Streamlit native charts
 ![Sample Output 1](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778240914/Screenshot_2026-05-08_171819_a4wzk7.png)
 
 
+
+
 ![Sample Output 2](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778240991/Screenshot_2026-05-08_171939_vfegvq.png)
+
+
 
 
 ![Sample Output 3](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778241054/Screenshot_2026-05-08_172043_ibwpex.png)
 
 
+
+
 ![Sample Output 4](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778241133/Screenshot_2026-05-08_172152_a6u0gt.png)
 
 
+
+
 ![Sample Output 5](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778241194/Screenshot_2026-05-08_172303_m1mjvc.png)
+
+
 
 
 ![Sample Output 6](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778241225/Screenshot_2026-05-08_172334_sp2vsi.png)
