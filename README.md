@@ -1,4 +1,7 @@
 📈 Redstox Analyst: AI-Powered Stock Analysis Platform
+
+**🔴 Live Demo:** [Check out the live application here!](https://redstox-analytics.onrender.com/)
+
 Redstox Analyst is an LLM-driven investment research platform that delivers real-time, multi-dimensional stock insights using fundamental, technical, and sentiment analysis. Built with Streamlit and powered by Llama 3.3 via Groq, it mimics expert investors to provide actionable financial evaluations.
 
 🚀 Features
@@ -20,8 +23,6 @@ Automatically pulls historical and current stock data using yFinance, enabling u
 🔍 Multi-Layered Investment Insights
 Combines price trends, news sentiment, and financial ratios into a single, user-friendly dashboard to aid better investment decisions.
 
-🏗️ Architecture
-![image](https://github.com/user-attachments/assets/850360ed-b342-498c-8cbc-57d35b1269fa)
 
 
 🧱 Tech Stack
@@ -33,8 +34,9 @@ Backend	Python, Groq SDK
 Visualization	Streamlit native charts
 
 🖼️ Sample Outputs
-![image](https://github.com/user-attachments/assets/4b013f97-1368-4c67-9eb5-79679a7537a8)
-![image](https://github.com/user-attachments/assets/ae0232a8-e613-4a07-8ee4-5e129a30446c)
-![image](https://github.com/user-attachments/assets/52713683-1f05-4867-9127-ce48593ed4ee)
-![image](https://github.com/user-attachments/assets/463d3c0c-50e5-4169-9174-ef68d1b758d9)
-![image](https://github.com/user-attachments/assets/9e8f1492-dac5-4834-bc40-6f1511fb46e6)
+![Sample Output 1](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778240914/Screenshot_2026-05-08_171819_a4wzk7.png)
+![Sample Output 2](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778240991/Screenshot_2026-05-08_171939_vfegvq.png)
+![Sample Output 3](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778241054/Screenshot_2026-05-08_172043_ibwpex.png)
+![Sample Output 4](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778241133/Screenshot_2026-05-08_172152_a6u0gt.png)
+![Sample Output 5](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778241194/Screenshot_2026-05-08_172303_m1mjvc.png)
+![Sample Output 6](https://res.cloudinary.com/dp8wy3ooi/image/upload/v1778241225/Screenshot_2026-05-08_172334_sp2vsi.png)
